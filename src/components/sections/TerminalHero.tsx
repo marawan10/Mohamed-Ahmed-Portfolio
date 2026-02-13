@@ -43,7 +43,7 @@ const TerminalHero: React.FC = () => {
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="bg-terminal-bg border border-border-color rounded-lg shadow-2xl overflow-hidden backdrop-blur-sm bg-opacity-95"
+                        className="dark bg-terminal-bg border border-border-color rounded-lg shadow-2xl overflow-hidden backdrop-blur-sm bg-opacity-95"
                     >
                         {/* Terminal Header */}
                         <div className="bg-background-secondary px-4 py-2 border-b border-border-color flex items-center justify-between">
