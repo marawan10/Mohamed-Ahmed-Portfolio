@@ -39,7 +39,7 @@ export const SkillsPage: React.FC = () => {
                                 {skillGroup.items.map(item => (
                                     <span
                                         key={item}
-                                        className="px-3 py-1.5 bg-terminal-bg border border-border-color rounded text-sm text-text-primary font-mono hover:text-accent-secondary transition-colors"
+                                        className="px-3 py-1.5 bg-terminal-bg border border-border-color rounded text-sm text-gray-300 font-mono hover:text-accent-primary transition-colors"
                                     >
                                         {item}
                                     </span>
