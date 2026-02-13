@@ -46,7 +46,7 @@ export const ContactPage: React.FC = () => {
                                     href={SOCIAL_LINKS.github}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="p-4 bg-terminal-bg border border-border-color rounded hover:border-accent-primary hover:text-accent-primary transition-all hover:scale-110 group"
+                                    className="p-4 bg-terminal-bg border border-border-color rounded text-gray-400 hover:border-accent-primary hover:text-accent-primary transition-all hover:scale-110 group"
                                     aria-label="GitHub"
                                 >
                                     <Github size={32} />
@@ -55,14 +55,14 @@ export const ContactPage: React.FC = () => {
                                     href={SOCIAL_LINKS.linkedin}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="p-4 bg-terminal-bg border border-border-color rounded hover:border-accent-primary hover:text-accent-primary transition-all hover:scale-110 group"
+                                    className="p-4 bg-terminal-bg border border-border-color rounded text-gray-400 hover:border-accent-primary hover:text-accent-primary transition-all hover:scale-110 group"
                                     aria-label="LinkedIn"
                                 >
                                     <Linkedin size={32} />
                                 </a>
                                 <a
                                     href={SOCIAL_LINKS.email}
-                                    className="p-4 bg-terminal-bg border border-border-color rounded hover:border-accent-primary hover:text-accent-primary transition-all hover:scale-110 group"
+                                    className="p-4 bg-terminal-bg border border-border-color rounded text-gray-400 hover:border-accent-primary hover:text-accent-primary transition-all hover:scale-110 group"
                                     aria-label="Email"
                                 >
                                     <Mail size={32} />
@@ -83,7 +83,7 @@ export const ContactPage: React.FC = () => {
                                 </label>
                                 <input
                                     type="text"
-                                    className="w-full bg-terminal-bg border border-border-color rounded px-4 py-3 text-text-primary font-mono focus:border-accent-primary focus:outline-none transition-colors"
+                                    className="w-full bg-terminal-bg border border-border-color rounded px-4 py-3 text-gray-300 font-mono focus:border-accent-primary focus:outline-none transition-colors"
                                     placeholder='"John Doe"'
                                 />
                             </div>
@@ -94,7 +94,7 @@ export const ContactPage: React.FC = () => {
                                 </label>
                                 <input
                                     type="email"
-                                    className="w-full bg-terminal-bg border border-border-color rounded px-4 py-3 text-text-primary font-mono focus:border-accent-primary focus:outline-none transition-colors"
+                                    className="w-full bg-terminal-bg border border-border-color rounded px-4 py-3 text-gray-300 font-mono focus:border-accent-primary focus:outline-none transition-colors"
                                     placeholder='"john@example.com"'
                                 />
                             </div>
@@ -105,7 +105,7 @@ export const ContactPage: React.FC = () => {
                                 </label>
                                 <textarea
                                     rows={5}
-                                    className="w-full bg-terminal-bg border border-border-color rounded px-4 py-3 text-text-primary font-mono focus:border-accent-primary focus:outline-none transition-colors"
+                                    className="w-full bg-terminal-bg border border-border-color rounded px-4 py-3 text-gray-300 font-mono focus:border-accent-primary focus:outline-none transition-colors"
                                     placeholder='"Let connects and discuss architecture..."'
                                 />
                             </div>
